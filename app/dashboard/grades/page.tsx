@@ -1,6 +1,6 @@
 'use client'
 
-import { mockGrades } from '../../services/mockGradeData'
+import { mockGrades } from '@/app/services/mockGradeData'
 import { GradeTable } from '../../components/grades/GradeTable'
 import { calculateGPA } from '../../utils/calculateGPA'
 import { useMemo } from 'react'
