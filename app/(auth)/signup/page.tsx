@@ -46,6 +46,7 @@ export default function SignupPage() {
   }
 
   return (
+    <main className='min-h-screen min-w-screen flex items-center justify-center bg-gradient-to-br from-violet-50 to-neutral-100 px-4'>
     <div className="w-full max-w-md bg-white rounded-2xl shadow p-6 space-y-6 border-2">
       <div className='text-center font-bold text-5xl'>
         Welcome to Student Portal!
@@ -83,5 +84,6 @@ export default function SignupPage() {
             <Link href="/login" >Existing User? Login</Link>
         </div>
     </div>
+    </main>
   )
 }

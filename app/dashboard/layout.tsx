@@ -49,7 +49,6 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
     { label: "Courses", href: "/dashboard/courses" },
     { label: "Grades", href: "/dashboard/grades" },
     { label: "Attendance", href: "/dashboard/attendance" },
-    { label: "Timetable", href: "/dashboard/timetable" },
   ]
 
   const handleSignOut = async () => {
