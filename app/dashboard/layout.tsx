@@ -87,12 +87,12 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
 
       <div className="flex-1 flex flex-col">
         <header className="h-16 bg-white border-b border-neutral-200 flex items-center justify-between px-6 relative">
-          <span className="text-sm text-neutral-600">
+          <span className="text-lg font-semibold text-neutral-600">
             Welcome, {student ? student.name.toUpperCase() : "Student" }
           </span>
-          <div>
+          <div className='mr-8'>
             <Field orientation="horizontal">
-              <Input type="search" placeholder="Search..." />
+              <Input type="search" placeholder="Search..." className='w-90'/>
               <Button className='cursor-pointer bg-violet-500 border-2 border-violet-500 text-white'>Search</Button>
             </Field>
 
