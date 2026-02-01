@@ -91,7 +91,7 @@ export default function DashboardPage() {
             alt="profile"
             width={330}
             height={330}
-            className="rounded-full  ml-1 mt-2 mr-8 bg-violet-600 scale-225"
+            className="rounded-full  ml-1 mt-2 mr-8 bg-violet-600 scale-255 "
           />
       
 
